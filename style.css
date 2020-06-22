@@ -1,0 +1,314 @@
+body {
+    font-family: 'Barlow', sans-serif;
+}
+.main {
+   max-width: 1440px; 
+   margin: 0 auto;
+}
+.main .title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    color: #232323;
+}
+.main .btn {
+    background: #BD2F2F;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.main .banner-btn {
+    padding: 2% 13%;
+}
+
+.main .cta {
+    margin: 5% auto 8%;
+}
+
+.cta .cta-btn,
+.subscribe .cta-btn {
+    padding: 1.2% 8%;
+}
+
+/* ==================
+    NAVBAR SECTION
+======================*/
+.navbar .zira-nav-toggler:focus {
+    outline: none;
+}
+
+.zira-nav-links .nav-item {
+   color: #232323; 
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 19px;
+}
+
+.zira-nav-links .nav-item.active {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+} 
+
+.zira-nav-links .nav-item.active::after {
+    content: " ";
+    height: 6px;
+    width: 100%;
+    background-color: #BD2F2F;
+    border-radius: 5px;
+    margin-top: 6px;
+}
+
+/* =========================
+      BANNER SECTION
+============================*/
+.banner .banner-text {
+    padding-left: 11%;
+}   
+.banner-text .title {
+    font-size: 80px;
+    line-height: 107px;
+}
+
+.banner-text .banner-content {
+    font-size: 35px;
+    line-height: 42px;
+    color: #777777;
+}
+
+/* ==============================
+    BLOG POST STYLES
+================================*/
+.blog-section .title {
+    font-size: 36px;
+    line-height: 47px;
+    width: fit-content;
+}
+.blog-section .title::after {
+    content: " ";
+    height: 2px;
+    background-color: #BD2F2F;
+    border-radius: 5px;
+    margin-top: 6px;
+    width: 82%
+}
+
+.blog-section.latest {
+    margin-bottom: 10%;
+}
+
+.latest .latest-post {
+    padding: 4% 0 0 5%;
+}
+
+.latest .latest-title {
+    max-width: 275px;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 42px;
+    color: #000000;
+}
+
+.latest .latest-text {
+    font-size: 21px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.latest-post .tag,
+.blog-post .tag {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #232323;
+}
+
+.latest-post .time,
+.blog-post .time {
+    font-weight: normal;
+    margin-left: 8%;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+
+
+.latest-post .time::before,
+.blog-post .time::before {
+    content: "";
+    display: inline-block;
+    height: 4px;
+    background-color: #BD2F2F;
+    border-radius: 50%; 
+    width: 4px;
+    margin-right: 5px;
+}
+
+.post-info .reads {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #232323;
+}
+
+.post-info .cta-link {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #BD2F2F; 
+}
+
+.post-info .cta-link::after {
+    content: "\2192" ;
+}
+ 
+.blog-post .tag {
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.blog-post .time {
+    line-height: 14px;
+    font-size: 12px;
+}
+
+.blog-post .blog-text {
+    font-size: 24px;
+    line-height: 29px;
+}
+
+
+/* ==========================
+    SUBCRIBE SECTION
+=============================*/
+.main .subscribe {
+    padding-bottom: 12%;
+}
+
+.subscribe .title {
+    display: flex;
+    align-items: center;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    color: #000000;
+}
+
+
+.subscribe .title::before,
+.subscribe .title::after  {
+    content: "";
+    background-color: #BD2F2F;
+    width: 40%;
+    height: 2px;
+    display: inline-block;
+}
+.subscribe .subscribe-input {
+    padding: 3.9% 3%;
+}
+
+/* ==========================
+    FOOTER SECTION
+=============================*/
+
+.main .footer {
+    background: #3C3D48;
+}
+
+.footer .nav {
+    margin: 5% auto 8%; 
+}
+
+.footer .nav-link {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.footer .copy-right {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;   
+}
+
+/* ==========================
+    MEDIA QUERY SECTION
+=============================*/
+
+@media (max-width: 1199.98px) { 
+
+}
+
+@media (max-width: 991.98px) {
+    .subscribe .title::before,
+    .subscribe .title::after  {
+        width: 30%;
+    }
+    .banner-text .title {
+        font-size: 54px;
+        line-height: 72px;
+    }
+    
+    .banner-text .banner-content {
+        font-size: 24px;
+        line-height: 29px;
+    }
+ }
+
+ @media (max-width: 767.98px) { 
+    .subscribe .title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    
+    .latest .latest-title,
+    .blog-post .blog-text {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29px;
+        max-width: 350px;
+    }
+
+    .latest .latest-post {
+        padding: 0 15px;
+    }
+    
+    .latest-post .tag, 
+    .blog-post .tag {
+        font-size: 15px;
+        line-height: 18px;
+        color: #BD2F2F;
+    }
+    
+    .latest-post .time,
+    .blog-post .time  {
+        line-height: 14px;
+        font-size: 12px;
+        color: #777777;
+    }
+
+    .banner .banner-text {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+}
+
+
+@media (max-width: 575.98px) { 
+    .subscribe .title {
+        font-size: 17px;
+        line-height: 22px;
+    }
+
+    .main .btn {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    
+}
