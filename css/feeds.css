@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap');
+
+body{
+    font-family: 'Barlow', sans-serif;
+}
+
+
+.container{
+    max-width: 1200px;
+}
+
+/* Header and Nav Bars */
+
+/* ==================
+    NAVBAR SECTION
+======================*/
+.navbar .zira-nav-toggler:focus {
+    outline: none;
+}
+
+.zira-nav-links .nav-item {
+   color: #232323; 
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 19px;
+}
+
+.zira-nav-links .nav-item.active {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+} 
+
+.zira-nav-links .nav-item.active::after {
+    content: " ";
+    height: 6px;
+    width: 100%;
+    background-color: #BD2F2F;
+    border-radius: 5px;
+    margin-top: 6px;
+}
+
+
+.view-all{
+    margin-left:4rem;
+}
+
+.feeds{
+    font-size: 1em;
+}
+
+p{
+    font-size: 0.8em;
+}
+
+.jumbotron{
+    background-color: #fff;
+    padding: 0 !important;
+}
+
+
+.font-small{
+    font-weight: bold;
+    font-size: 1em;
+    color: #777;
+    transition: color ease-in 400ms;
+}
+
+.nav-link:hover{
+    color: #DC143C;
+}
+
+.active{
+    color:#DC143C !important;
+}
+
+.header-font{
+    font-family:'Playfair Display', serif; 
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.page-header{
+    font-size: 4em;
+    font-family:'Playfair Display', serif; 
+    font-weight:bolder;
+}
+
+.second-header{
+    font-size: 2.5em;
+    font-weight: bolder;
+    margin-top: 0 !important;
+}
+
+.read-more{
+    border-bottom: 2px solid #DC143C;
+    display: none;
+}
+
+.see-more1{
+    display: block;
+    box-sizing: border-box;
+    width: 25%;
+    padding:1em 1em;
+    margin: auto;
+}
+.see-more2{
+    display: block;
+    box-sizing: border-box;
+    width: 25%;
+    padding:1em 1em;
+}
+
+.sports-bg{
+    padding: 2em !important;
+    margin-top: 8em !important;
+    background-color: #eaeaea;
+}
+
+.news-letter{
+    margin-top: 2em !important;
+}
+
+.input-group{
+    width: 30%;
+    margin: auto !important;
+    margin-bottom: 3em !important;
+}
+
+.input-group input{
+    width: 100%;
+    height: 70px;
+    box-sizing: border-box !important;
+    border-radius: 0;
+    font-size: 1.1em;
+    border-right: none !important;
+}
+
+.input-group-text{
+    text-align: center !important;
+    width: 90px;
+    height: 72px;
+    background-color: #DC143C;
+    border-radius: 0 !important;
+}
+
+.input-group-text img{
+    margin: auto !important;
+    text-align: center !important;
+    filter: invert(100%);
+}
+
+
+.show-on-small-screen{
+    display: none;
+}
+
+
+/* ==========================
+    FOOTER SECTION
+=============================*/
+
+.footer {
+    background: #3C3D48;
+}
+
+.footer .nav {
+    margin: 5% auto 8%; 
+}
+
+.footer .nav-link {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.footer .copy-right {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;   
+}
+
+
+
+
+
+/* Media Queries for Feeds Page */
+@media screen and (max-width:767.98px){
+    .hide-on-small-screen{
+        display: none;
+    }
+
+    .show-on-small-screen{
+        display: block;
+    }
+
+    .read-more{
+        display: inline-block;
+    }
+
+    .page-header{
+        font-size: 2em !important;
+    }
+
+    .second-header{
+        font-size: 1.4em;
+        text-align: center;
+    }
+
+    .display-4{
+        font-size: 1.6em;
+    }
+
+    h4{
+        font-size: 1em;
+    }
+
+    .btn-danger{
+        padding: 1em !important;
+        font-size: 1em !important;
+        width: 150px;
+        margin-top: 1em !important;
+    }
+
+    .lead{
+        font-size: 1em !important;
+    }
+
+
+    .input-group{
+        width: 250px !important;
+    }
+
+
+    .input-group input{
+        height: 50px;
+        font-size: 0.8em;
+        border-right: none;
+    }
+
+    .input-group-text{
+        width: 50px;
+        height: 50px;
+        border: 1px solid #ccc !important;
+    }
+
+    .input-group-text img{
+        margin: auto !important;
+        display: block !important;
+        width: 20px !important;
+    }
+
+}
+
+@media screen and (width:320px){
+    .input-group{
+        width: 200px !important;
+    }
+
+    .input-group input{
+        box-sizing: border-box !important;
+        width: 70% !important;
+    }
+
+}
+
+@media screen and (max-width:823px){
+    .nav-link{
+        font-size: 0.6em !important;
+        margin-right: -0.5em !important;
+    }
+
+    .view-all{
+        margin-left: 0.3rem !important;
+    }
+
+    .input-group{
+        max-width: 350px !important;
+    }
+}

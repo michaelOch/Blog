@@ -1,0 +1,123 @@
+/* Header and Nav CSS */
+.navbar .zira-nav-toggler:focus {
+    outline: none;
+}
+
+.zira-nav-links .nav-item {
+   color: #232323; 
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 19px;
+}
+
+.zira-nav-links .nav-item.active {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+} 
+
+.zira-nav-links .nav-item.active::after {
+    content: " ";
+    height: 6px;
+    width: 100%;
+    background-color: #BD2F2F;
+    border-radius: 5px;
+    margin-top: 6px;
+}
+
+
+
+
+/* Contact Us page */
+.image-header{
+    display: none;
+}
+
+.contact-intro{
+    margin-bottom: 0 !important;
+    font-size: 2em;
+}
+
+.contact-form{
+    margin-top: 7em !important;
+}
+
+.text-input{
+    height: 70px;
+    font-size: 1.5em;
+    border: 1px solid #333;
+}
+
+.form-group textarea{
+    height: 120px !important;
+    font-size: 1.5em;
+    border: 1px solid #333;
+}
+
+.send-button{
+    height: 60px !important;
+}
+
+.show-on-small-screen{
+    display: none;
+}
+
+
+
+/* Media Queries for contact form */
+@media screen and (max-width:767.98px){
+    .image-header{
+        display: block;
+        margin-top: -0.8em !important;
+    }
+
+    .contact-heading{
+        margin-top: -0.8em !important;
+        font-size: 3em;
+    }
+
+    .contact-intro{
+        font-size: 1.1em;
+    }
+
+    .contact-form{
+        margin-top: 1.5em !important;
+    }
+
+    .form-image{
+        display: none;
+    }
+
+    .jumbotron{
+        background-color: #fff;
+    }
+}
+
+
+/* ==========================
+    FOOTER SECTION
+=============================*/
+
+ .footer {
+    background: #3C3D48;
+}
+
+.footer .nav {
+    margin: 5% auto 8%; 
+}
+
+.footer .nav-link {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.footer .copy-right {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;   
+}
+
+

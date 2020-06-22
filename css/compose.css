@@ -1,0 +1,122 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.compose-header {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+}
+
+.compose-input-board {
+    color: black;
+    background: #FFFFFF;
+    border: 1px solid #777777 !important;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    border-radius: .25rem;
+}
+
+.compose-form-control {
+    border: transparent;
+}
+
+.main-section{
+    padding-left: 30px!important;
+}
+
+.zline {
+    width: 98%;
+    color: #777777;
+    opacity: 0.5;
+    margin-bottom: 0px;
+    border: 0.5px solid #777777;
+}
+
+.title {
+    font-family: Playfair Display;
+    font-size: 30px;
+    color: #777777;
+    height: 26px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.compose-form-control:focus {
+    box-shadow: none !important;
+}
+
+.compose-list-unstyled {
+    margin-bottom: 0px;
+}
+
+ol.compose-list-unstyled li {
+    display: inline;
+    padding: 5px;
+    margin-bottom: 0px;
+}
+
+.compose-list-unstyled button {
+    text-transform: none;
+    background: transparent;
+    border: none;
+}
+
+.tools {
+    margin-top: 8px;
+}
+
+.compose-drop-btn {
+    border: 0.5px solid #777777;
+    border-radius: 5px;
+    height: 29px;
+    width: 66px;
+    font-weight: 500;
+    font-family: Barlow, sans-serif;
+}
+.compose-drop-btn span{
+    margin-top: -15px;
+    margin-left: -15px;
+    float: left;
+    padding: 5px;
+}
+
+.compose-drop-btn:focus {
+    box-shadow: none !important;
+}
+
+.pub {
+    background: #B5011E;
+    border: #B5011E;
+    width: 100%;
+    height: 47px;
+    font-family: Barlow, sans-serif;
+}
+
+.draft {
+    color: #B5011E;
+    border: 1px solid #B5011E;
+    width: 100%;
+    height: 47px;
+    font-family: Barlow, sans-serif;
+}
+
+@media all and (max-width: 545px) {
+
+    .fa-gg:before, .fa.fa-file-text-o:before, .fa.fa-smile-o:before{
+        font-size: 18px;
+        margin: 1px!important;
+    }
+}
+
+
+@media (max-width: 410px) {
+    .compose-header{
+        font-size: 10px!important;
+    }
+}

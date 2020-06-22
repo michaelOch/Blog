@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap"
+          rel="stylesheet">
+    <script src="https://kit.fontawesome.com/760c3d66bf.js" crossorigin="anonymous"></script>
+    <link href="css/compose.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title>compose article</title>
+</head>
+<body>
+<main class="main">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg align-items-center justify-content-between zira-nav">
+            <a class="navbar-brand" href="index.html">
+                <img src="imgs/Logo.svg" width="78" height="49" alt="" loading="lazy">
+            </a>
+            <button class="navbar-toggler zira-nav-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon d-flex align-items-center justify-content-center"><img
+                        src="imgs/Hamburger menu.svg"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between flex-grow-0 w-75 zira-nav-links"
+                 id="navbarNavAltMarkup">
+                <div class="navbar-nav mr-auto d-flex justify-content-between w-75">
+                    <a class="nav-item nav-link active" href="index.html">Home <span
+                            class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="feeds.html">Feeds</a>
+                    <a class="nav-item nav-link" href="contact.html">Contact Us</a>
+                    <a class="nav-item nav-link" href="article.html">Publish Article</a>
+                </div>
+                <div>
+                    <img src="imgs/Iconify Search icon.svg">
+                </div>
+            </div>
+
+        </nav>
+    </div>
+    <div class="container mb-4 py-4 px-4 main-section">
+        <div class="row mt-4">
+            <div class="col-sm-12 col-xs-12 col-lg-10 col-md-10 offset-lg-1 offset-md-1 compose-header"><h4>Share Your Thoughts</h4>
+                <div class="compose-input-board mt-4">
+                    <form action="" method="">
+                        <div class="form-group">
+                            <input type="text" class="form-control compose-form-control title" placeholder="Title">
+                        </div>
+                        <hr class="zline">
+
+                        <div class="form-group">
+                                <textarea class="form-control compose-form-control content"
+                                          placeholder="Lets hear it..." rows="4"></textarea>
+                        </div>
+                        <hr class="zline">
+                        <div class="row tools">
+                            <div class="col-6 col-sm-9 col-md-6 text-left">
+                                <ol class="list-unstyled compose-list-unstyled">
+                                    <li>
+                                        <button><i class="fa fa-smile-o text-muted resize-sm"></i></button>
+                                    </li>
+                                    <li>
+                                        <button><i class="fa fa-file-text-o text-muted resize-sm" aria-hidden="true"></i>
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button><i class="fa fa-gg text-muted resize-sm" aria-hidden="true"></i></button>
+                                    </li>
+                                </ol>
+                            </div>
+                            <div class="col-6 col-sm-3 col-md-6 text-right">
+                                <div class="dropdown">
+                                    <button class="btn btn-md drop-btn compose-drop-btn dropdown-toggle pb-2"
+                                            type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                                            aria-haspopup="true" aria-expanded="false">
+                                        <span class="pb-3 text-muted">Tag</span>
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#">H1</a>
+                                        <a class="dropdown-item" href="#">H2</a>
+                                        <a class="dropdown-item" href="#">H3</a>
+                                        <a class="dropdown-item" href="#">B</a>
+                                        <a class="dropdown-item" href="#">Strong</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="row mt-4 mb-4">
+                    <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+                        <button type="submit" class="btn btn-primary pub" name="register">Publish</button>
+                    </div>
+                    <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+                        <button type="submit" class="btn btn-outline-primary draft" name="register">Save as Draft
+                        </button>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="text-center">
+                <a class="navbar-brand" href="#">
+                    <img src="imgs/logo-white.svg" width="78" height="49" alt="" loading="lazy">
+                </a>
+                <ul class="nav flex-column flex-md-row justify-content-center align-items-start">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">How to publish an article</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Privacy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Publishers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Feeds</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+                <p class="copy-right mb-3"> &copy; 2020 Zari. All rights reserved</p>
+            </div>
+
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"></script>
+</body>
+</html>

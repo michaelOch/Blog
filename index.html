@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="css/home.css" rel="stylesheet">
+    <title>blog template</title>
+</head>
+<body>
+    <main class="main">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg align-items-center justify-content-between zira-nav">
+                <a class="navbar-brand" href="index.html">
+                    <img src="imgs/Logo.svg" width="78" height="49" alt="" loading="lazy">
+                </a>
+                <button class="navbar-toggler zira-nav-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon d-flex align-items-center justify-content-center"><img src="imgs/Hamburger menu.svg"></span>
+                </button>
+                  <div class="collapse navbar-collapse justify-content-between flex-grow-0 w-75 zira-nav-links" id="navbarNavAltMarkup">
+                    <div class="navbar-nav mr-auto d-flex justify-content-between w-75">
+                      <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                      <a class="nav-item nav-link" href="feeds.html">Feeds</a>
+                      <a class="nav-item nav-link" href="contact.html">Contact Us</a>
+                      <a class="nav-item nav-link" href="article.html">Publish Article</a>
+                    </div>
+                    <div class="account-icon">
+                        <a href="profile.html"><img src="imgs/user-circle-solid.svg" class="img-fluid"></a>
+                    </div>
+                  </div>
+                  
+            </nav>    
+        </div>
+
+        <header class="banner container-fluid mt-5">
+            <div class="row align-items-center justify-content-between">
+                <div class="banner-text d-flex flex-column align-items-center d-md-block col-12 col-md-8">
+                    <h1 class=" text-center text-md-left title">Stay Woke!</h1> 
+                    <p class="banner-content text-center text-md-left my-5">Discover and share articles that keep you updated</p>
+                    <button class="btn i-btn banner-btn">Explore Zira</button>
+                 </div>
+                 <img class="banner-img col-6 offset-6 offset-md-0 col-md-4 mt-5 mt-md-0 img-fluid" src="imgs/hero-Image.png">
+            </div>  
+        </header>
+        <section class="blog-section latest mt-5">
+            <div class="container">
+                <h2 class="title d-flex flex-column">Latest</h2>
+                <div class="row justify-content-between mt-5">
+                    <div class="col-12 col-md-6">
+                        <h3 class="latest-title d-md-none"> BLM protest stirs Debate in France</h3>
+                        <a href="#"><img class="img-fluid" src="imgs/latest-1.png"></a>
+                    </div>
+                    <div class="col-12 col-md-6 latest-post">
+                        <h3 class="latest-title d-none d-md-block"> BLM protest stirs Debate in France</h3>
+                        <p class="latest-text mb-1 d-none d-md-block">
+                            BOBIGNY, France — Luc Pechangou had never joined a protest before, not even when his own neighborhood just outside Paris was convulsed with anger over the violent arrest of a young black man from the area in 2017.
+                            It was instead the death of George Floyd in Minneapolis that led him to join an anti-racism rally and, he said, see things more clearly in France, his own country.    
+                        </p>
+                        <div class="post-info">
+                            <p class="tag d-flex justify-content-between justify-content-md-start">#Politics <span class="time">5 mins ago</span></p>
+                            <p class="reads d-none d-md-flex justify-content-between">78K Reads <a href="#" class="cta-link">Read More</a></p>
+                        </div>
+                    </div>
+                </div>      
+            </div>   
+        </section>
+        <section class="blog-section mt-5">
+            <div class="container">
+                <div class="blog-post-row row justify-content-center justify-content-md-between">
+                    <div class="col-12 col-md-4 blog-post d-flex flex-column mb-5 mb-md-0">
+                        <p class="blog-text pr-4 order-md-2">Cheese burgers are a good. A piece seems filling...</p>  
+                        <a href="#"><img class="img-fluid" src="imgs/latest-2.png"></a>
+                        <p class="tag blog-tag d-flex justify-content-between justify-content-md-start mt-3">#Food <span class="time">5 mins ago</span></p>     
+                    </div>
+                    <div class="col-12 col-md-4 blog-post d-flex flex-column mb-5 mb-md-0">
+                        <p class="blog-text pr-4 order-md-2">Christiano Ronaldo breaks yet missing out on the title to...</p>
+                        <a href="#"><img class="img-fluid" src="imgs/latest-3.png"></a>    
+                        <p class="tag blog-tag d-flex justify-content-between justify-content-md-start mt-3">#Sports <span class="time">5 mins ago</span></p>
+                    </div>
+                    <div class="col-12 col-md-4 blog-post d-flex flex-column mb-5 mb-md-0">
+                        <p class="blog-text pr-4 order-md-2">Donald Trump claims to have the situation in America,...</p>
+                        <a href="#"><img class="img-fluid" src="imgs/latest-4.png"></a>
+                        <p class="tag blog-tag d-flex justify-content-between justify-content-md-start mt-3">#Politics <span class="time">5 mins ago</span></p>
+                    </div>
+                </div>
+            </div>   
+        </section>
+        <section class="blog-section featured mt-5">
+            <div class="container">
+                <h2 class="title d-flex flex-column">Featured</h2>
+                <div class="blog-post-row row justify-content-center justify-content-md-between mt-5">
+                    <div class="col-12 col-md-4 blog-post d-flex flex-column mb-5 mb-md-0">
+                        <p class="blog-text pr-4 order-md-2">How to make money Blogging without ads or afiliate marketing</p> 
+                        <a href="#"><img class="img-fluid" src="imgs/featured-1.png"></a>        
+                        <p class="tag tag d-flex justify-content-between justify-content-md-start blog-tag mt-3">#Food <span class="time">5 mins ago</span></p>   
+                    </div>
+                    <div class="col-12 col-md-4 blog-post d-flex flex-column mb-5 mb-md-0">
+                        <p class="blog-text pr-4 order-md-2">3 ways to source material for creative work</p>
+                        <a href="#"><img class="img-fluid" src="imgs/featured-2.png"></a>
+                        <p class="tag tag d-flex justify-content-between justify-content-md-start blog-tag mt-3">#Writing <span class="time">5 mins ago</span></p>   
+                    </div>
+                    <div class="col-12 col-md-4 blog-post d-flex flex-column">
+                        <p class="blog-text pr-4 order-md-2">It took me a long time to understand that writing is a task best undertaken </p>
+                        <a href="#"><img class="img-fluid" src="imgs/featured-3.png"></a>                
+                        <p class="tag tag d-flex justify-content-between justify-content-md-start blog-tag mt-3">#Tech <span class="time">5 mins ago</span></p>           
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <section class="blog-section d-none d-md-block foryou mt-5">
+            <div class="container">
+                <h2 class="title d-flex flex-column">For You</h2>
+                <div class="blog-post-row row justify-content-between mt-5">
+                    <div class="col-4 blog-post">
+                        <a href="#"><img class="img-fluid" src="imgs/for_you-1.png"></a>
+                        <p class="tag d-flex justify-content-between justify-content-md-start blog-tag mt-3">#Anime <span class="time">5 mins ago</span></p>
+                        <p class="blog-text pr-4">Top 50 Jump Anime’s come to your screens in the next 5 ...</p>
+                    </div>
+                    <div class="col-4 blog-post">
+                        <a href="#"><img class="img-fluid" src="imgs/for_you-2.png"></a>
+                        <p class="tag d-flex justify-content-between justify-content-md-start blog-tag mt-3">#Movie <span class="time">5 mins ago</span></p>
+                        <p class="blog-text pr-4">Sequel to the avengers movie younever knew could hap...</p>
+                    </div>
+                    <div class="col-4 blog-post">
+                        <a href="#"><img class="img-fluid" src="imgs/for_you-3.png"></a>
+                        <p class="tag d-flex justify-content-between justify-content-md-start blog-tag mt-3">#Lifestyle <span class="time">5 mins ago</span></p>
+                        <p class="blog-text pr-4">we've got plenty of ways to celebrate Dad's big day. Check out these</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container text-center cta">
+            <button class="btn  i-btn cta-btn">See More</button>
+        </div>
+        <section class="subscribe">
+            <h2 class="title text-center">Never miss a beat. Get Zira Blog email updates in your inbox</h2>
+            <div class="container mt-5">
+                <form class="text-center">
+                    <div class="form-group mb-5 row w-75 mx-auto">
+                        <input placeholder="example@email.com" type="email" class="subscribe-input form-control-lg col-12">
+                    </div>
+                    <button class="btn i-btn cta-btn mx-auto d-inline-block" type="submit">Subscribe</button>
+                </form>
+            </div>
+        </section>
+        <footer class="footer py-5">
+            <div class="container">
+                <div class="text-center">
+                    <a class="navbar-brand" href="#">
+                        <img src="imgs/logo-white.svg" width="78" height="49" alt="" loading="lazy">
+                    </a>
+                    <ul class="nav flex-column flex-md-row justify-content-center align-items-start">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">How to publish an article</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Privacy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Publishers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Feeds</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                        </ul>
+                    <p class="copy-right mb-3"> &copy; 2020 Zira. All rights reserved</p>
+                </div>
+                
+            </div>
+        </footer>
+
+        
+    </main>
+
+
+
+
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>   
+</body>
+</html>
+
+

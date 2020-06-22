@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body {
+    font-family: 'Barlow', sans-serif;
+}
+
+:root {
+    --theme-red: #BD2F2F;
+    --theme-grey: #777777;
+    --theme-dark: #232323;
+}
+a {
+    text-decoration: none;
+}
+h1{
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 72px;
+    color: #232323;
+    font-family: 'Playfair Display', serif;
+}
+h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 47px; 
+}
+h2, a {
+    color: #232323 !important;
+}
+h2, a:hover {
+    color: #232323;
+    text-decoration: none;
+}
+h5{
+    font-weight: bold;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 29px;
+}
+p a {
+    color: #fff !important;
+}
+p a:hover {
+    color: #fff !important;
+}
+p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 29px;
+    color: #232323;
+    font-family: 'Barlow', sans-serif;
+}
+p span {
+    font-weight: bold;
+    font-size: 19px;
+}
+a span {
+    color: var(--theme-red);
+}
+
+::selection {
+    background: var(--theme-red);
+    color: #fff;
+}
+
+::-moz-selection {
+    background: var(--theme-red);
+    color: #fff;
+}
+
+.text-theme-red {
+    color: var(--theme-red);
+}
+
+.text-theme-grey {
+    color: var(--theme-grey);
+}
+
+.text-theme-dark {
+    color: var(--theme-dark);
+}
+
+/* Header Section Styles */
+
+.navbar-nav li a {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--theme-dark) !important;
+}
+
+.navbar-nav li:hover {
+    border-bottom: 3px solid var(--theme-red);
+}
+
+.active-link {
+    border-bottom: 3px solid var(--theme-red);
+}
+
+.round-circle {
+	margin-top: 2px;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+}
+
+/* Main Body */
+.main {
+    margin-top: 6rem;
+}
+
+.btn-primary {
+    font-size: 20px;
+    color: #fff;
+    padding: 19px 82px;
+    background-color: var(--theme-red);
+    border: 0px solid var(--theme-red);
+}
+.btn-primary:hover{
+    background-color: #fff;
+    color: var(--theme-red);
+    border: 1px solid var(--theme-red);
+}
+
+#exampleFormControlInput1{
+    width: 300px;
+}
+
+#exampleFormControlTextarea1{
+    width: 350px;
+}
+.img-f {
+    width: 100%;
+    height: auto;
+}
+
+.img-fluid {
+    width: 99%;
+    transition: width 1s;
+}
+.img-fluid:hover {
+    width: 100%;
+}
+
+@media only screen and (max-width: 687px) {
+   h1{
+    font-size: 40px;
+   }
+}
